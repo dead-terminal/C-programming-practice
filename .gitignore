@@ -1,4 +1,45 @@
-main
-.o
-.out
-.vscode
+
+# Compiled binaries
+*.o
+*.a
+*.so
+*.out
+*.exe
+*.dll
+*.dylib
+a.out
+
+# Debugging files
+*.dSYM/
+*.stackdump
+core
+core.*
+
+# Build directories
+build/
+bin/
+obj/
+
+# VS Code workspace settings
+.vscode/*
+!.vscode/extensions.json
+
+# Temporary and backup files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+*.bak
+*.orig
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
