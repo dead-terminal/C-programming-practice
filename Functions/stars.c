@@ -10,11 +10,13 @@ int main(){
 
     printStars(n);
 
+    printf("\n");
+
     return 0;
 }
 
 void printStars(int n){
     for(int i = 1; i <= n; i++){
-        printf("*\n");
+        printf("* ");
     }
 }
